@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    min-height: 50vh;
+    padding: 0 50px;
+}
+
+.title {
+    padding: 40px 0;
+    font-size: 3vmin;
+    color: #996633;
+    letter-spacing: 1px;
+}
+
+.content {
+    font-size: 3vmin;
+}
+
+.first-desc {
+    padding-bottom: 20px;
+    color: chocolate;
+}
+
+.second-desc, .third-desc {
+    padding-bottom: 15px;
+}
+
+section {
+    min-height: 50vh;
+}
+
+.subscription {
+    background-color: #DEB887;
+    width: 50%;
+    float: left;
+    padding: 30px 50px;
+}
+
+.subscription-price {
+    padding: 20px 0;
+}
+
+.subscription-def {
+    font-size: 2.5vmin;
+}
+
+.subscription-price {
+    font-size: 2.5vmin;
+}
+
+.subscription-price span {
+    font-weight: bold;
+    font-size: 5vmin;
+}
+
+.section-title, .why-header {
+    font-size: 2vmin;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 2.5vmin;
+}
+
+.button:hover {
+    background-color: chocolate;
+}
+
+.why-us {
+    background-color: #D2B48C;
+    width: 50%;
+    float: left;
+    padding: 30px 50px;
+}
+
+.why-reasons {
+    padding: 10px 0;
+}
+
+.why-reasons p {
+    font-size: 2.5vmin;
+    margin-top: 3px;
+}
+
+footer {
+    width: 100%;
+    background-color: burlywood;
+    padding: 7px;
+    font-size: 2.5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px){
+    .main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .subscription, .why-us {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .title {
+        font-size: 4vmin;
+    }
+    
+    .content {
+        font-size: 4vmin;
+    }
+    
+    .section-title, .why-header {
+        font-size: 3vmin;
+    }
+    
+    .subscription, .why-us {
+        padding: 50px;
+    }
+    
+    .subscription-def {
+        font-size: 3.5vmin;
+    }
+    
+    .subscription-price span {
+        font-size: 6vmin;
+    }
+    
+    .why-reasons p {
+        font-size: 3.5vmin;
+    }
+    
+    .subscription-price {
+        font-size: 3.5vmin;
+    }
+    
+    .button {
+       font-size: 3.5vmin;
+        margin-top: 25px;
+    }
+    
+    footer {
+        font-size: 3.5vmin;
+        text-align: center;
+    }
+}
+    
+
+
